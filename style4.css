@@ -1,0 +1,113 @@
+/* General Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+header nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+header .user-section {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .contact {
+    margin-top: 5px;
+}
+
+/* Payment Section */
+.payment-section {
+    padding: 20px 30px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.payment-section h2 {
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.payment-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.payment-section label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.payment-section input, .payment-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+}
+
+.payment-section textarea {
+    resize: none;
+}
+
+.payment-section .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.payment-section .column {
+    flex: 1;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.payment-methods img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
